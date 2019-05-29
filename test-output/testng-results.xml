@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47" started-at="2019-05-29T00:10:12Z" finished-at="2019-05-29T00:10:12Z">
+  <suite name="Default suite" duration-ms="52" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47" started-at="2019-05-29T00:10:12Z" finished-at="2019-05-29T00:10:12Z">
-      <class name="com.class01.TestDemo">
-        <test-method status="PASS" signature="testDem()[pri:0, instance:com.class01.TestDemo@100fc185]" name="testDem" duration-ms="15" started-at="2019-05-29T00:10:12Z" finished-at="2019-05-29T00:10:12Z">
+    <test name="Default test" duration-ms="52" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+      <class name="BeforeAndAfterMethod">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDem -->
-      </class> <!-- com.class01.TestDemo -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="testMethodOne" duration-ms="10" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="testMethodTwo" duration-ms="1" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- BeforeAndAfterMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
