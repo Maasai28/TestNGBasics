@@ -1,0 +1,14 @@
+<suite>
+<test>
+<classes>
+<parameter>
+	<run>
+		<parameter name = "userName1" value="Tom"/>
+		<parameter name = "userName2" value="John"/>
+		<parameter name = "userName3" value="Bob"/>
+</run>
+</parameter>
+<class name = "com.class04.ParameterExampleOne"/>
+</classes>
+</test>
+</suite>

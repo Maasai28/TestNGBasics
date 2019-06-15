@@ -1,0 +1,17 @@
+<suite>
+
+<test>
+<groups>
+	<run>
+		<include name= "Smoke1"/>
+		<include name= "Smoke2"/>
+		<include name= "Smoke3"/>
+</run>
+
+</groups>
+
+<classes>
+<class name="com.class03.DependsOnGroups" />
+</classes>
+</test>
+</suite>

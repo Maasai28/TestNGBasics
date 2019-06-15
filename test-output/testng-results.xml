@@ -2,36 +2,38 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+  <suite name="Suite" duration-ms="4490" started-at="2019-06-12T01:46:07Z" finished-at="2019-06-12T01:46:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
-      <class name="BeforeAndAfterMethod">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+    <test name="ChromeTest" duration-ms="4256" started-at="2019-06-12T01:46:07Z" finished-at="2019-06-12T01:46:12Z">
+      <class name="com.class05.DemoTest">
+        <test-method status="PASS" signature="testCrossBrowser(java.lang.String)[pri:0, instance:com.class05.DemoTest@7823a2f9]" name="testCrossBrowser" duration-ms="4256" started-at="2019-06-12T01:46:07Z" finished-at="2019-06-12T01:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="testMethodOne" duration-ms="10" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
+        </test-method> <!-- testCrossBrowser -->
+      </class> <!-- com.class05.DemoTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="4490" started-at="2019-06-12T01:46:07Z" finished-at="2019-06-12T01:46:12Z">
+      <class name="com.class05.DemoTest">
+        <test-method status="PASS" signature="testCrossBrowser(java.lang.String)[pri:0, instance:com.class05.DemoTest@77caeb3e]" name="testCrossBrowser" duration-ms="4490" started-at="2019-06-12T01:46:07Z" finished-at="2019-06-12T01:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMethodOne -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="testMethodTwo" duration-ms="1" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethodTwo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:BeforeAndAfterMethod@51081592]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-29T01:31:21Z" finished-at="2019-05-29T01:31:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- BeforeAndAfterMethod -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testCrossBrowser -->
+      </class> <!-- com.class05.DemoTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
 </testng-results>

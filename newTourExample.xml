@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name ="browser" value ="chrome"/>
+<parameter name ="url" value ="http://newtours.demoaut.com/mercurywelcome.php"/>
+<parameter name ="user" value ="user1"/>
+<parameter name ="pass" value ="pass1"/>
+<parameter name ="cpass" value ="pass1"/>
+ <test thread-count="5" name="Test">
+   <classes>
+     <class name="com.class04.newTourExample"/>
+   </classes>
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
